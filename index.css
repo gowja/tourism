@@ -1,0 +1,40 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(205, 134, 63, 0.192);
+}
+.class2{
+    margin-top: 1%;
+}
+.carousel-inner > .item {
+    height: 400px;
+    width: 100%;
+ }
+ .sign1{
+     margin-left: 0%;
+     margin-right: 0%;
+     padding-right: 0px;
+ }
+ .sign2{
+     margin-left: 0%;
+ }
+.button1{
+    color: seashell;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 20%;
+    position: relative;
+    top: 10%;
+    left: -23%;
+    background-color: rgba(65, 105, 225, 0.87);
+}
+.class1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: saddlebrown;
+}
+.footer{
+    background-color: rgba(119, 136, 153, 0.863);
+    text-align: center;
+  }
+  .about{
+      margin-top: 2%;
+  }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar navbar-light" style="background-color: rgba(240, 25, 25, 0.212);">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="dist.html">DISTRICTS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="carouselControls" class="carousel slide" data-ride="carousel" >
+      <div id="home" class="carousel-inner">
+        <div class="carousel-item item active"><img class="d-block w-100" src="kozhikode.jfif" alt="Laptop"></div>
+        <div class="carousel-item item"><img class="d-block w-100" src="ks1.jfif" alt="Code"></div>
+        <div class="carousel-item item"><img class="d-block w-100" src="palakkad.jfif" alt="Desk"></div>
+        <div class="carousel-item item"><img class="d-block w-100" src="ptnmthitta.jfif" alt="City"></div>
+        <div class="carousel-item item"><img class="d-block w-100" src="wayanad.jfif" alt="Mountains"></div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="container class2">
+      <div class="row">
+        <div class="col-sm-6 sign1">
+          <img height="250px" width="400px" class="img-rounded"src="img1.jfif">
+          <button type="button" class="btn btn-info button1" onclick="mySignin()"><b>SIGN IN</b></button>
+        </div>
+        <div class="col-sm-6 sign2">
+          <img height="250px" width="400px" src="img2.jfif">
+          <button type="button" class="btn btn-info button1" onclick="mySignup()"><b>SIGN UP</b></button>
+        </div>
+      </div>  
+    </div>
+    <div class="container about">
+        <h3 class="class1">ABOUT</h3>
+        <P>Kerala Tourism Department is a major government ministry under Kerala Government. It is prime regulatory agency that overviews and supervises entire tourism activities of the state. Kerala Tourism is ranked as one of the fastest growing tourism industry in the country and the ministry has been often adjudged as key department that aggressively worked on to make Kerala Tourism into Top 100 Superbrands.</P>
+        <P>Government of Kerala trended to ignore its tourism potential completely until the late 1980s, despite the strong marketing efforts done by leading private tour agencies. This even forced WTTC, often referring Kerala as a late-comer to the tourism sector.
+
+            The potentiality of tourism was first identified during last days of Travancore Monarchy. It was 1st Prince Col. Goda Varma Raja (Husband of H.H Queen of Travancore, Karthika Thirunal), while spending his honeymoon holidays at Kovalam's Halcyon Castle, discovered the immense possibility of exploring the kingdom's tourism opportunities. As 1st Prince, he was in-charge of receiving state guests and often several visiting dignitaries used to praise the natural beauty, which made him realize to seriously concentrate in developing the industry. However his idea received a cold response at Royal Court, forcing him to start his own venture to popularize key tourist destinations. The attitude of ignoring tourism continued even after Independence, leaving the sector purely driven by few private ventures and hotel chains.
+            
+            During the 1960s Kovalam soon rose into international fame, as one of the major centers of hippie culture in India, which started massive influx of foreign tourists, bringing large amount of much needed foreign exchange. It was at this point of Kerala Government, slowly started realizing the importance of tourism.
+            
+            Hailed as one of the first policy that underlines the importance of Public-Private Partnership, the policy helped Kerala to fuel its strong growth in Tourism sector.
+            
+            </P>
+    </div>
+    <div class="container contact">
+        <h3 class="class1">CONTACT US</h3>
+          <P>  1.	Tourism (A) Department	0471-2518490</P>
+          <p>  2.	Tourism (B) Department	0471-2518803</p>
+          <p>  3.	Tourism (C) Department	0471-2517109</P>
+            <p>4.   Public Information Officer : 
+
+                   <br> Mr. M. S. Venugopal
+                    <br>Deputy Director
+                
+                   <br> Department of Tourism
+                   <br> Government of Kerala
+                   <br> Park View
+                    <br>Thiruvananthapuram
+                    <br>Kerala - 695 033, India
+                    <br>Tel : + 91 471 2560436</p>
+    </div>
+    <div class="footer">
+        <p>copyright@2020</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

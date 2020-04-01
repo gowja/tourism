@@ -1,0 +1,22 @@
+container{
+   margin-top: 10%;
+    background-color: hsla(240, 100%, 50%, 0.397);
+}
+.image{
+    width:400px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.btn{
+    width: 50%;
+   position: absolute;
+   top: 40%;
+   left: 30%;
+   color: burlywood;
+   background-color: rgba(0, 100, 0, 0.582);
+}
+.contact h3{
+    color: forestgreen;
+    
+}

@@ -1,0 +1,21 @@
+.class1{
+width: 60%;
+border:3px;
+background-color: rgba(139, 120, 34, 0.267);
+margin-top: 5%;
+background-image: url("signin.jfif");
+background-size: cover;
+background-repeat: no-repeat;
+}
+.class1 h3{
+  color: rgb(54, 141, 182);
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.class2{
+    width: 60%;
+    padding-top: 0%;
+}
+.button2{
+   padding-left: 30%;
+}
